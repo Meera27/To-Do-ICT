@@ -50,6 +50,6 @@ function check(redirecting){
 }
 function redirecting(){
     var form = document.getElementById("newform");
-    form.setAttribute("action","todo.html");
+    form.setAttribute("action","sp.html");
 }
 

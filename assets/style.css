@@ -4,8 +4,22 @@
     font-family: 'Montserrat', sans-serif;
 }
 header{
-    background-color: rgb(63, 41, 79);
-    height: 44px; 
+    background-color: #24252a;
+    height: 50px; 
+}
+.header {
+    text-align: center;
+}
+.header ul{
+    margin: 0%;
+    padding: 0%;
+}
+.header a{
+    font-family: 'Train One', cursive;
+    font-size:30px;
+    color: aliceblue;
+    text-decoration: none;
+
 }
 a{
     text-decoration: none;
@@ -15,6 +29,7 @@ a{
     list-style: none;
   } 
 
+
 body {
     background: rgb(255, 255, 255);
     background-color: #EEF2FC;
@@ -23,7 +38,7 @@ body {
 .row {
     background: white;
     border-radius: 30px;
-    box-shadow: 12px 12px 22px rgb(63, 41, 79);
+    box-shadow: 12px 12px 22px #24252a;
     align-content: center;
     text-align: center;
     margin-top: 100px;
@@ -49,6 +64,13 @@ height: 450px !important;
 h1 {
     text-align: center;
     font-weight: 800;
+}
+.footer{
+    position: fixed;
+  left: 0%;
+  bottom: 0%;
+  width: 100%;
+  text-align: center;
 }
 @media (max-width: 992px) {
     #newform{
