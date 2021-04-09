@@ -28,8 +28,7 @@ $(document).ready(function(){
         });
         promise
         .then(function(){
-            $(".check1").prop('disabled',true);
-            $(".check1:checked").removeAttr('disabled','disabled');
+            $("input:checkbox:not(:checked)").prop('disabled',true);
             setTimeout(function(){
                 alert("Congrats. 5 Tasks have been Successfully Completed");
             },100)
