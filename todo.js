@@ -35,7 +35,7 @@ $(document).ready(function(){
              
         })
         .catch(function(){
-            $('.check1').removeAttr('disabled','disabled');
+            $('.check1').removeAttr('disabled','disabled');//removes "disabled" when checked ones are unchecked
         });
 
     });
