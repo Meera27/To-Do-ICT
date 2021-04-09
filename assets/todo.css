@@ -26,7 +26,10 @@
 tr:hover {
   background-color: #F4C4C9;
 }
-
+body{
+  font-family: 'Noto Serif', serif;
+  background-color: #EEF2FC;
+}
   /* .nav__links a {
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
